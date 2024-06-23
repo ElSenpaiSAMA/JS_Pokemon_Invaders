@@ -1,0 +1,140 @@
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url('otros/finva.jpg');
+    background-size: cover;   
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    overflow: hidden; 
+}
+
+.container {
+    text-align: center;
+}
+
+#im1 {	
+    position: absolute;
+    top: 0; 
+    right: 0; 
+    width: 600px; 
+    height: 900px; 
+}
+
+#im2 {		
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+    width: 300px; 
+    height: 300px; 
+}
+
+#im3 {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 300px; 
+    height: 300px; 
+}
+
+.grid {
+    background-position: center;
+    background-image: url('otros/f1.jpg');
+    background-size: cover;
+    width: 600px; 
+    height: 600px;
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 40px; 
+    height: 40px; 
+}
+
+.invader {
+    background-image: url('otros/m2.png');
+    background-size: cover;
+    width: 40px; 
+    height: 40px; 
+}
+
+.shooter {
+    background-image: url('otros/rojo.png');
+    background-size: cover;
+    width: 40px; 
+    height: 40px; 
+}
+
+.laser {
+    background-image: url('otros/poke.png');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+
+.start {
+    background-image: url('otros/start.png');
+    background-size: cover;
+    background-color: transparent; 
+    border: none; 
+    padding: 0; 
+    box-shadow: none; 
+    width: 200px; 
+    height: 60px; 
+    cursor: pointer; 
+}
+
+.sig {
+    background-image: url('otros/sig.png');
+    background-size: cover;
+    background-color: transparent; 
+    border: none; 
+    padding: 0; 
+    box-shadow: none; 
+    width: 60px; 
+    height: 60px; 
+    cursor: pointer; 
+    position: absolute; 
+    top: 10px;
+    right: 10px;
+    margin-right: 80px; 
+    margin-left: 10px;
+}
+
+.re {
+    background-image: url('otros/vol.png');
+    background-size: cover;
+    background-color: transparent; 
+    border: none; 
+    padding: 0; 
+    box-shadow: none; 
+    width: 60px; 
+    height: 60px; 
+    cursor: pointer; 
+    position: absolute; 
+    top: 10px;
+    right: 10px;
+    margin-right: 10px; 
+    margin-left: 10px;	
+}
+
+.boom {
+    background-image: url('otros/exp.png');
+    background-size: cover;
+}
